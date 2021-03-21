@@ -87,6 +87,13 @@ const Login = () => {
             const isPasswordValid = e.target.value.length > 6;
             const passwordHasNumber = /\d{1}/.test(e.target.value);
             isFormValid = isPasswordValid && passwordHasNumber;
+            if(isFormValid) {
+                var password 
+            }
+        }
+        if(e.target.name === 'confirmPassword'){
+            var confirmPassword = e.target.value;
+
         }
         if(isFormValid){
             const newUserInfo ={...user};
@@ -171,7 +178,7 @@ const Login = () => {
                                 <input type="password" name="password" onBlur={handleBlur} placeholder="Password" required></input>
                             </div>
                             <div className="field">
-                                <input type="password" name="password" onBlur={handleBlur} placeholder="Confirm password" required></input>
+                                <input type="password" name="confirm-password" onBlur={handleBlur} placeholder="Confirm password" required></input>
                             </div>
                             <div className="field">
                                 <input type="submit" value="Signup"></input>
