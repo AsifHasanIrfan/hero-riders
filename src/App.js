@@ -10,6 +10,7 @@ import Header from './components/Header/Header';
 import Login from './components/Login/Login';
 import { createContext, useState } from 'react';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
+import NotFound from './components/NotFound/NotFound';
 
 export const userContext = createContext();
 
@@ -36,7 +37,7 @@ function App() {
             <Login />
         </Route>
         <Route path="*">
-          {/* <NotFound /> */}
+          <NotFound />
         </Route>
       </Switch>
     </Router>
