@@ -1,0 +1,32 @@
+  
+[
+    {
+        "id" : "1",
+        "name" : "BIKE",
+        "price" : 100,
+        "image" : "https://i.postimg.cc/28ckStdC/Frame.png",
+        "capacity": "4"
+    },
+    {
+        "id" : "2",
+        "name" : "CAR",
+        "price" : 150,
+        "image" : "https://i.postimg.cc/g2xYXK48/Frame-2.png",
+        "capacity": "4"
+    },
+    {
+        "id" : "3",
+        "name" : "BUS",
+        "price" : 305,
+        "image" : "https://i.postimg.cc/Mpgzyjr4/Frame-1.png",
+        "capacity": "4"
+    },
+    {
+        "id" : "4",
+        "name" : "TRAIN",
+        "price" : 115,
+        "image" : "https://i.postimg.cc/QM5hSx2M/Group.png",
+        "capacity": "4"
+    }
+    
+]

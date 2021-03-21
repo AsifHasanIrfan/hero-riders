@@ -1,0 +1,15 @@
+.login-btn{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    background: -webkit-linear-gradient(left, #a445b2, #fa4299)
+}
+.user-name {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(255, 189, 22);
+}

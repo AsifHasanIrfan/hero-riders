@@ -1,0 +1,9 @@
+.bg-img {
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    background-position: bottom;
+    background-size: cover;
+    min-height: 950px;
+    margin-top: -100px;
+    background-image: url(../../images/Bg.png);
+}

@@ -1,0 +1,57 @@
+@import url("https://cdn.syncfusion.com/ej2/material.css");
+.search-form {
+    background: lightgrey;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+.search-form p {
+    margin-bottom: 5px;
+}
+.search-form .btn {
+    width: 100%;
+    background-image: linear-gradient(85deg, #141E30, #243B55);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 6px;
+}
+.search-form input {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 6px;
+    margin-bottom: 10px;
+}
+.destination-bg {
+    border-top: 1px solid gray;
+}
+.map-img{
+    max-width: 100%;
+    margin-top: 20px;
+}
+.location-bg {
+    background: linear-gradient(85deg, #0F2027, #2C5364);
+    padding: 8px 20px;
+    color: #fff;
+    border-radius: 5px;
+}
+.location-bg h5 {
+    margin-bottom: 0;
+    padding: 5px 0;
+}
+.des-info img {
+    width: 100%;
+}
+.des-info{
+    background: #fff;
+    margin: 10px  0;
+    padding: 10px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+.des-info h6 {
+    margin-left: 10px;
+}
